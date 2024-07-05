@@ -9,4 +9,4 @@ https://github.com/Chill-Division/mca-licenses/compare/dbaaa66..9eda61b
 
 Using the SHA hash from the oldest commit first, followed by two dots, and then the SHA hash for the new commit
 
-Also, when viewing licenses.txt you'll see a list of rows, allowing for an easy count of how many license holders there are at any given stage (Minus the ~4 unlisted ones that have opted not to be shown on the MCA website)
+Also, when viewing licenses.txt you'll see a list of rows, allowing for an easy count of how many license holders there are at any given stage (Minus the ~2-3 unlisted ones that have opted not to be shown on the MCA website)
