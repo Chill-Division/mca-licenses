@@ -1,5 +1,5 @@
 # NZ Medicinal Cannabis Agency license history
-Historical list of licenses granted by the agency to make it easy to view changes over time, sourced from their [website list](https://www.health.govt.nz/our-work/regulation-health-and-disability-system/medicinal-cannabis-agency/medicinal-cannabis-agency-information-industry/medicinal-cannabis-agency-current-licence-holders).
+Historical list of licenses granted by the agency to make it easy to view changes over time, sourced from their [website list](https://www.health.govt.nz/regulation-legislation/medicinal-cannabis/information-for-industry/current-licence-holders).
 
 The easiest way to view this from a browser is to tap on licenses.txt, then view the history of the file.
 
