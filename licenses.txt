@@ -10,6 +10,7 @@ CDC Pharmaceuticals	31 August 2025
 Chill Division Limited	16 September 2025
 CopiousC Limited	13 December 2025
 DG & BC Morrison Limited	26 February 2026
+Elevated Wellness Limited	26 June 2026
 Elysian Pharmaceuticals Limited	4 February 2026
 Eqalis Innovations Limited	30 September 2025
 Eqalis Pharmaceuticals Limited	9 August 2025
@@ -37,7 +38,6 @@ Pure Isolation Limited	1 September 2025
 Puro New Zealand Limited	8 July 2026
 Rua Bioscience Limited	14 August 2025
 Skyman Industries Limited	13 April 2026
-Southern Medicinal Limited	21 December 2025
 The New Zealand Institute for Plant and Food Research Limited	17 November 2025
 Workshop Lab and Others Limited	30 April 2026
 Zealand Health Manufacturing Limited	10 December 2025
