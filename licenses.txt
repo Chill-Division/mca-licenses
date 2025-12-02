@@ -1,7 +1,7 @@
 Aho Farms Limited	12 November 2026
 Aoroa Cannabis t/a A.C. Ltd	2 December 2026
 AsureQuality Limited	21 August 2026
-Auckland University of Technology DDRG	15 December 2025
+Auckland University of Technology DDRG	15 December 2026
 Aumex Limited	19 August 2026
 Canna-Ora Aotearoa NZ Limited	14 December 2025
 Cannasouth Cultivation Limited	26 January 2026
@@ -23,7 +23,7 @@ Hurrah Apex Limited	15 July 2026
 Indica Industries Limited	25 October 2026
 JC Logistics Limited t/a Veridion Group	6 April 2026
 Kalyx Limited	26 November 2026
-Kauri Coast Cannabis Limited	20 December 2025
+Kauri Coast Cannabis Limited	20 December 2026
 Legacy Ag Limited	25 September 2026
 Long White Cloud Genetics Limited	12 December 2025
 Lush Harvests Limited	17 February 2026
@@ -42,4 +42,3 @@ SkyHigh Industries Tapui Limited	24 July 2026
 Skyman Industries Limited	13 April 2026
 Workshop Lab and Others Limited	30 April 2026
 Zealand Health Manufacturing Limited	10 December 2025
-
