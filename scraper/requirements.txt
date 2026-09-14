@@ -1,0 +1,4 @@
+# curl_cffi impersonates a browser's TLS fingerprint; without it Cloudflare
+# serves a "managed challenge" page instead of the licence list.
+curl_cffi==0.16.3
+beautifulsoup4==4.15.0

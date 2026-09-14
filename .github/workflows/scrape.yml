@@ -1,0 +1,47 @@
+name: Scrape licence holders
+
+on:
+  schedule:
+    # 06:37 UTC = 18:37 NZST / 19:37 NZDT, after the Ministry's working day.
+    # GitHub runs schedules in UTC and may delay them by some minutes.
+    - cron: "37 6 * * *"
+  workflow_dispatch:
+
+# The job needs to push commits; the repo's default token permission is read-only.
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape-licences
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scraper/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r scraper/requirements.txt
+
+      - name: Scrape, commit and push if the table changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          python scraper/scrape.py --push --save-html "$RUNNER_TEMP/page.html"
+
+      - name: Keep the fetched page for debugging
+        if: failure()
+        uses: actions/upload-artifact@v7
+        with:
+          name: fetched-page
+          path: ${{ runner.temp }}/page.html
+          if-no-files-found: ignore
+          retention-days: 7

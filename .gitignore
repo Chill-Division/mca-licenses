@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+scraper/venv/
+scraper/.venv/
+*.log
+page.html
